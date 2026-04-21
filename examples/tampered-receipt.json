@@ -1,0 +1,32 @@
+{
+  "version": "0.2",
+  "receiptId": "axm-precheck-f0eb433c41ce4995",
+  "chainId": 31337,
+  "actionType": "wallet_guard.execute",
+  "status": "blocked",
+  "evidenceSource": "precheck",
+  "decision": {
+    "result": "deny",
+    "reasonCode": "DENY_DESTINATION_NOT_ALLOWED",
+    "reason": "Destination is not allowlisted."
+  },
+  "inputs": {
+    "wallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+    "target": "0x000000000000000000000000000000000000c0de",
+    "value": "100000000000000000",
+    "selector": "0x773acdef"
+  },
+  "outputs": {
+    "policyExists": true,
+    "destinationAllowed": false,
+    "agentPaused": false,
+    "remainingDailySpend": "0",
+    "cooldownEnds": "0"
+  },
+  "txHash": null,
+  "blockNumber": null,
+  "decisionHash": "precheck:76d48f5139e6568a4278d4426bb14682f4d1103bf1ba626673602370389877ca",
+  "completedAt": "2026-04-20T08:42:33.616552Z",
+  "hash": "3b7efb3a0b8057ab6f02e3f921331e875cf289b538bc2e97438825b17e972132",
+  "guardAddress": "0x3aa5ebb10dc797cac828524e59a333d0a371443c"
+}

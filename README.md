@@ -4,6 +4,9 @@ Public profile for Axiom One's **Execution Receipt Verifier API** — a hosted, 
 
 **Live:** [`https://verifier.axiom-one.tech`](https://verifier.axiom-one.tech/health) · Base Sepolia today · [Website](https://axiom-one.tech/verifier)
 
+Publication pass completed for public-safe fixtures and documentation.
+See [`EXAMPLES.md`](EXAMPLES.md) and [`examples/`](examples/) for verification fixtures.
+
 ---
 
 ## What it does

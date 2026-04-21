@@ -1,0 +1,25 @@
+{
+  "version": "0.2",
+  "receiptId": "axm-receipt-1",
+  "chainId": 31337,
+  "actionType": "wallet_guard.execute",
+  "status": "executed",
+  "decision": {
+    "result": "allow",
+    "reasonCode": "ALLOW_ALL_CHECKS_PASSED",
+    "reason": "Action passed policy checks and was executed."
+  },
+  "inputs": {
+    "wallet": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+    "target": "0xc6e7df5e7b4f2a278906862b61205850344d4e7d",
+    "value": "100000000000000000",
+    "selector": "0x773acdef"
+  },
+  "outputs": {},
+  "txHash": "0xdcc23d96188b46d0e95d5fdc6844876aa73cbc512d5f2f02646cd8146a98f613",
+  "blockNumber": 28,
+  "decisionHash": "0x5cce7b9256897aef648e726787712fc5fca0438173bb75b41929ec15a033d8a4",
+  "completedAt": "2026-04-20T08:42:33.502574Z",
+  "hash": "fed0c6b8712bb981b009c6151726fef2037e5ecb182a65225117b10e367b7631",
+  "guardAddress": "0x3aa5ebb10dc797cac828524e59a333d0a371443c"
+}
