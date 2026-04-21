@@ -16,7 +16,7 @@ The schema is public; any system can produce or independently verify receipts ag
 | `evidenceSource` | string | conditional | Required when `status: "blocked"`. E.g. `"precheck"`. |
 | `decision` | object | ✓ | See below. |
 | `inputs` | object | ✓ | Action inputs (wallet, target, value, selector). |
-| `outputs` | object | optional | Arbitrary structured outputs from the action/guard. |
+| `outputs` | object | optional | Structured outputs from the action/guard. Must not contain internal identifiers, PII, or system architecture details — limit to non-sensitive decision evidence (e.g. boolean policy flags, numeric thresholds). |
 | `txHash` | string \| null | conditional | Required when `status: "executed"`. Hex tx hash. |
 | `blockNumber` | number \| null | conditional | Required when `status: "executed"`. |
 | `decisionHash` | string | ✓ | Deterministic hash of the canonical decision payload. Format `<prefix>:<hex>` (e.g. `precheck:…` or `0x…`). |
